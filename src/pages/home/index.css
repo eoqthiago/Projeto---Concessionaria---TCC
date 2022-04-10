@@ -260,3 +260,35 @@ span{
         display: none;
     }
 }
+
+
+@media (max-width: 460px){
+
+    .items-page-one{
+        flex-direction: column;
+    }
+    .items-page-two{
+        flex-direction: column;
+    }
+    .items-page-tree{
+        display: none;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .car2 img{
+        height: 300px;
+        width: 350px;
+    }
+    .title-two{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .car{
+        margin-left: 4em;
+    }
+    .listra-fundo{
+        display: none;
+    }
+}
