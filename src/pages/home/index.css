@@ -1,8 +1,21 @@
-/* Menu */
-
-
-header{
+/* Cabeçalho */
+header {
     background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    padding: 0 30px;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    transition: .2s;
+}
+
+header * {
+    color: #fff;
 }
 
 .user{
@@ -13,31 +26,16 @@ header{
 .fonts-p1{
     font-family: 'Roboto';
     font-size: 10px;
+    margin: 0 10px;
+}
+
+.header-logo * {
+    font-size: 2.25em;
+    font-weight: bold;
 }
 
 .menu-bg{
     background-color: #2c70ff;
-}
-
-.menu {
-    background-color: black;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 15px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu a{
-    color: white;
-}
-
-.menu-logo a {
-    font-size: 2.25em;
-    font-weight: bold;
-    margin: 0 10px;
 }
 
 .menu-nav ul {
@@ -48,7 +46,7 @@ header{
 .menu-nav a {
     font-size: 1.25em;
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 .menu-nav a:hover {
@@ -58,6 +56,7 @@ header{
 /* main */
 
 main{
+    margin-top: 80px;
     max-width: 960px;
     display: flex;
     flex-direction: column;
@@ -226,7 +225,25 @@ span{
     z-index: 1;
 }
 
+/*voltar ao topo botão*/
+#return {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
 
+#return img {
+    width: 70%;
+}
 
 
 /* responsivo */

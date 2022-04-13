@@ -24,3 +24,24 @@
 // }
 
 // imgcarro();
+
+
+
+
+//Animação do cabeçalho
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 260 || document.documentElement.scrollTop > 260) {
+    document.getElementById("header").style.height = "50px";
+  } else {
+    document.getElementById("header").style.height = "";
+  }
+
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("return").style.display = "block";
+  } else {
+    document.getElementById("return").style.display = "none";
+  }
+}
+
