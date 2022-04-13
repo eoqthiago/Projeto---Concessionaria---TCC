@@ -1,67 +1,12 @@
-/* Cabeçalho */
-header {
-    background-color: black;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    padding: 0 30px;
-    top: 0;
-    z-index: 1;
-    position: fixed;
-    transition: .2s;
-}
-
-header * {
-    color: #fff;
-}
-
-.user{
-    height: 30px;
-    width: 30px;
-}
-
-.fonts-p1{
-    font-family: 'Roboto';
-    font-size: 10px;
-    margin: 0 10px;
-}
-
-.header-logo * {
-    font-size: 2.25em;
-    font-weight: bold;
-}
-
-.menu-bg{
-    background-color: #2c70ff;
-}
-
-.menu-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.menu-nav a {
-    font-size: 1.25em;
-    display: block;
-    padding: 5px;
-}
-
-.menu-nav a:hover {
-    color: #5e72e4;
-}
-
-/* main */
-
+/* MAIN */
 main{
     margin-top: 80px;
     max-width: 960px;
     display: flex;
     flex-direction: column;
 }
-/* page one */
+
+    /* PAGE ONE */
 .page-one{
     max-width: 960px;
     margin: 0 auto;
@@ -78,7 +23,6 @@ main{
     border-top: 8px solid #5e72e4;
     padding: 0px 200px;
 }
-
 
 .titles{
     display: flex;
@@ -100,10 +44,12 @@ main{
     color: #9a9ca7;
     font-family: sans-serif;
 }
+
 .titles p{
     font-family: sans-serif;
     color: #9a9ca7;
 }
+
 .titles a {
     color: #0952f0;
     font-family: sans-serif;
@@ -111,12 +57,12 @@ main{
 
 .car img{
     height: 300px;
-
 }
 
 .car{
     margin-left: 15em;
 }
+
 .listra-fundo{
     margin-top: 140px;
     margin-left: 835px;
@@ -142,16 +88,14 @@ main{
 
 }
 
-/* PAGE TWO */
-
-
-
+    /* PAGE TWO */
 .page-two{
     max-width: 960px;
     display: flex;
     flex-direction: column;
     margin-bottom: 200px;
 }
+
 .items-page-two{
     display: flex;
     flex-direction: row;
@@ -173,6 +117,7 @@ main{
 span{
     color: #5e72e4;
 }
+
 .title-two h1{
     font-family: sans-serif;
     font-size: 4em;
@@ -180,7 +125,6 @@ span{
     
     color: black;
 }
-
 
 .btn a{
     margin-top: 30px;
@@ -190,9 +134,7 @@ span{
     font-family: sans-serif;
 }
 
-
-/* page tree */
-
+    /* PAGE THREE */
 .page-tree{
     max-width: 960px;
     display: flex;
@@ -206,9 +148,9 @@ span{
     width: 100%;
     height: 100%;
 }
+
 .img-car2 img{
     margin-left: 390px;
-    
     width: 80%;
     height: 50%;
 }
@@ -217,6 +159,7 @@ span{
     height: 200px;
     width: 300px;
 }
+
 .carro-circulo{
     position: absolute;
     left: 0px;
@@ -225,7 +168,8 @@ span{
     z-index: 1;
 }
 
-/*voltar ao topo botão*/
+
+/*voltar ao topo - botão*/
 #return {
     width: 30px;
     height: 30px;
@@ -246,25 +190,29 @@ span{
 }
 
 
-/* responsivo */
+/* RESPONSIVIDADE */
 @media (max-width: 800px){
-
     .items-page-one{
         flex-direction: column;
     }
+
     .items-page-two{
         flex-direction: column;
     }
+
     .items-page-tree{
         display: none;
     }
+
     .btn{
         margin-top: 20px;
     }
+
     .car2 img{
         height: 300px;
         width: 350px;
     }
+
     .title-two{
         display: flex;
         flex-wrap: wrap;
@@ -273,6 +221,7 @@ span{
     .car{
         margin-left: 4em;
     }
+
     .listra-fundo{
         display: none;
     }
@@ -284,19 +233,24 @@ span{
     .items-page-one{
         flex-direction: column;
     }
+
     .items-page-two{
         flex-direction: column;
     }
+
     .items-page-tree{
         display: none;
     }
+
     .btn{
         margin-top: 20px;
     }
+
     .car2 img{
         height: 300px;
         width: 350px;
     }
+
     .title-two{
         display: flex;
         flex-wrap: wrap;
@@ -305,6 +259,7 @@ span{
     .car{
         margin-left: 4em;
     }
+
     .listra-fundo{
         display: none;
     }
