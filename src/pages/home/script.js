@@ -24,8 +24,14 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 260 || document.documentElement.scrollTop > 260) {
     document.getElementById("header").style.height = "50px";
+    document.getElementById("header-logo").style.fontSize = "2em";
+    document.getElementById("header-item").style.fontSize = "0.98em";
+    document.getElementById("user").style.transform = "scale(0.8)";
   } else {
     document.getElementById("header").style.height = "";
+    document.getElementById("header-logo").style.fontSize = "";
+    document.getElementById("header-item").style.fontSize = "1em";
+    document.getElementById("user").style.transform = "";
   }
 
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {

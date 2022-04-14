@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-    background-color: black;
+    background-color: #55595c;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -11,26 +11,33 @@ header {
     top: 0;
     z-index: 1;
     position: fixed;
-    transition: .2s;
+    transition: .3s;
 }
 
 header * {
     color: #fff;
 }
 
-.user{
+#user{
     height: 30px;
     width: 30px;
+    transform: none;
+    transition: .3s;
+}
+
+#header-item {
+    transform: none;
+    transition: .3s;
 }
 
 .fonts-p1{
     font-family: 'Roboto';
-    font-size: 10px;
+    font-size: inherit;
     margin: 0 10px;
-    transition: .125s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
-.header-logo * {
+#header-logo {
     font-size: 2.25em;
     font-weight: bold;
 }
@@ -48,8 +55,10 @@ header * {
     font-size: 1.25em;
     display: block;
     padding: 5px;
+    transition: .2s;
 }
 
 .menu-nav a:hover {
-    color: #5e72e4;
+    color: #6379f7;
+    text-decoration: underline;
 }
