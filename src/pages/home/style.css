@@ -1,9 +1,61 @@
 /* MAIN */
 main{
-    margin-top: 80px;
     max-width: 960px;
     display: flex;
     flex-direction: column;
+}
+
+    /* INICIAL */
+.inicial {
+    width: 100vw;
+    height: 700px;
+    background: url(../../assets/images/bmw-back.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 4vw;
+    width: 33vw;
+    height: fit-content;
+}
+
+.inicial-title {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 40px;
+    padding: .7em 0em;
+}
+
+.presentation-text {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.presentation-btn {
+    color: #fff;
+    background-color: #00000013;
+    font-family: 'Roboto';
+    font-size: 25px;
+    border: none;
+    border-radius: 60px;
+    border: 2.5px white solid;
+    padding: .3em 1.2em;
+    margin: 1em 0em;
+    box-shadow: -4px 6px 20px #000000b2;
+    transition: .3s ease-in-out;
+    margin-bottom: 2em;
+}
+
+.presentation-btn:hover {
+    transform: scale(1.08);
+    background-color: #fff;
+    color: #0952f0;
+    box-shadow: -4px 6px 20px #ffffff0c;
 }
 
     /* PAGE ONE */
@@ -39,18 +91,18 @@ main{
     color: #5e72e4;
 }
 
-.titles h2{
+.p1-subtitles {
     text-align: center;
     color: #9a9ca7;
     font-family: sans-serif;
 }
 
-.titles p{
+.p1-para{
     font-family: sans-serif;
     color: #9a9ca7;
 }
 
-.titles a {
+.p1-text {
     color: #0952f0;
     font-family: sans-serif;
 }
