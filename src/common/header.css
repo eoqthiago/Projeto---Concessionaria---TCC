@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-    background-color: #102f475e;
+    background-color: #010d165e;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -61,4 +61,104 @@ header * {
 .menu-nav a:hover {
     color: #6379f7;
     text-decoration: underline;
+}
+
+
+/* Celular - portrait */
+@media all and (max-width: 480px) {
+    header {
+        background-color: #55595c;
+        height: max-content;
+        position: initial;
+        width: 100%;
+        padding: 5px 10px;
+        height: min-content;
+    }
+
+    #header-logo {
+        font-size: 1.4em;
+        margin-right: 35px;
+    }
+
+    #header-item {
+        font-size: .8em;
+        margin: 0;
+    }
+
+    .fonts-p1 {
+        margin: 0;
+    }
+
+    #user {
+        transform: scale(0.65);
+    }
+}
+
+/* Celular - landscape */
+@media all and (max-width: 767px) and (max-height: 480px) {
+    header {
+        background-color: #55595c;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #header-logo {
+        font-size: 1.4em;
+    }
+
+    #header-item {
+        font-size: .8em;
+    }
+
+    #user {
+        transform: scale(0.65);
+    }
+}
+
+/* Tablet */
+@media all and (max-width: 768px) {
+    header {
+        background-color: #55595c;
+        height: max-content;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #header-logo {
+        font-size: 1.56em;
+    }
+
+    #header-item {
+        font-size: .8em;
+    }
+
+    #user {
+        transform: scale(0.75);
+    }
+}
+
+/* Tablet - portrait */
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    header {
+        background-color: #55595c;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #header-logo {
+        font-size: 1.56em;
+    }
+
+    #header-item {
+        font-size: .8em;
+    }
+
+    #user {
+        transform: scale(0.75);
+    }
 }
