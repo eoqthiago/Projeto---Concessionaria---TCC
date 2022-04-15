@@ -9,7 +9,7 @@ main{
 .inicial {
     width: 100vw;
     height: 700px;
-    background: url(../../assets/images/bmw-back.jpg) no-repeat;
+    background: url(../../assets/images/bmw-backt.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ main{
     border: 2.5px white solid;
     padding: .3em 1.2em;
     margin: 1em 0em;
-    box-shadow: -4px 6px 20px #000000b2;
+    box-shadow: -4px 6px 20px #0000007e;
     transition: .3s ease-in-out;
     margin-bottom: 2em;
 }
@@ -333,43 +333,106 @@ span{
 }
 
 
-/* RESPONSIVIDADE */
-@media (max-width: 800px){
-    .items-page-one{
-        flex-direction: column;
+/* Celular - portrait */
+@media all and (max-width: 480px) {
+    .inicial {
+        background-position: center left;
+        height: 400px;
     }
 
-    .items-page-two{
-        flex-direction: column;
+    .card {
+        width: 27vh;
     }
 
-    .page-three{
+    .inicial-title {
+        font-size: 28px;
+        padding: .5em 0;
+    }
+
+    .presentation-text {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .presentation-btn {
         display: none;
     }
-
-    .btn{
-        margin-top: 20px;
-    }
-
-    .car2 img{
-        height: 300px;
-        width: 350px;
-    }
-
-    .title-two{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .car{
-        margin-left: 4em;
-    }
-
 }
 
+/* Celular - landscape */
+@media all and (max-width: 767px) and (max-height: 480px) {
+    .inicial {
+        background-position: center left;
+        height: 400px;
+    }
 
-@media (max-width: 460px){
+    .card {
+        width: 45vh;
+    }
 
+    .inicial-title {
+        font-size: 28px;
+        padding: .5em 0;
+    }
+
+    .presentation-text {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .presentation-btn {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media all and (max-width: 767px) {
+    .inicial {
+        height: 550px;
+    }
+
+    .card {
+        width: 44vh;
+    }
+
+    .inicial-title {
+        font-size: 33px;
+    }
+
+    .presentation-text {
+        font-size: 18px;
+    }
+
+    .presentation-btn {
+        padding: .2em .9em;
+        font-size: 20px;
+    }
+}
+
+/* Tablet - portrait */
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    .inicial {
+        height: 550px;
+    }
+
+    .card {
+        width: 44vh;
+    }
+
+    .inicial-title {
+        font-size: 33px;
+    }
+
+    .presentation-text {
+        font-size: 18px;
+    }
+
+    .presentation-btn {
+        padding: .2em .9em;
+        font-size: 20px;
+    }
+
+    /*
     .items-page-one{
         flex-direction: column;
     }
@@ -402,5 +465,5 @@ span{
 
     .listra-fundo{
         display: none;
-    }
+    }*/
 }
