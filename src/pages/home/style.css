@@ -1,6 +1,6 @@
 /* MAIN */
 main{
-    max-width: 960px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -18,15 +18,17 @@ main{
 }
 
 .card {
-    margin-left: 4vw;
-    width: 33vw;
+    margin-left: 2vw;
+    width: 34.5vw;
     height: fit-content;
 }
 
 .inicial-title {
     color: #fff;
-    font-family: 'Roboto';
-    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 40px;
     padding: .7em 0em;
 }
 
@@ -60,20 +62,21 @@ main{
 
     /* PAGE ONE */
 .page-one{
-    max-width: 960px;
-    margin: 0 auto;
+    width: 100vw;
+    height: fit-content;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
-}
-
-.items-page-one{
-    margin-top: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em 0em;
 }
 
 .linha{
-    border-top: 8px solid #5e72e4;
-    padding: 0px 200px;
+    background-color: #5e72e4;
+    width: 40vw;
+    height: .9vw;
+    min-height: 5px;
+    margin: .5em 0;
 }
 
 .titles{
@@ -86,110 +89,114 @@ main{
 .titles h1{
     text-align: center;
     font-family: sans-serif;
-    font-size: 4em;
+    font-size: 6vw;
+    letter-spacing: 0px;
+    line-height: auto;
     width: 7em;
     color: #5e72e4;
 }
 
 .p1-subtitles {
     text-align: center;
-    color: #9a9ca7;
+    color: #7f818b;
     font-family: sans-serif;
+    font-size: 25px;
 }
 
 .p1-para{
-    font-family: sans-serif;
-    color: #9a9ca7;
+    font-family: 'Roboto', sans-serif;
+    color: #7f818b;
+    font-size: 17px;
 }
 
 .p1-text {
+    margin: .2em 0;
     color: #0952f0;
     font-family: sans-serif;
 }
 
-.car img{
-    height: 300px;
-}
-
 .car{
-    margin-left: 15em;
-}
-
-.listra-fundo{
-    margin-top: 140px;
-    margin-left: 835px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
-
-.items-page-one{
-    display: flex;
-    flex-direction: row;
+    background-image: url(../../assets/images/Group\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39vw;
 }
 
 .redes-sociais{
-    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-top: 20px;
 }
 
 .fa{
-    margin: 20px;
-    font-size: 20px;
-    color: #9a9ca7;
+    font-size: 30px;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    color: #424242;
+    background-color: #e0e0e0;
+    border-radius: 100%;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
 
+.fa:hover {
+    transform: scale(1.1);
 }
 
 
-
-
-
     /* PAGE TWO */
-
-
 .page-two{
-    max-width: 960px;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 3em 0;
 }
 
 .items-page-two{
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
 }
 
-.paraph{
-    align-items: center;
-    width: 420px;
+.pg2-paraph{
+    width: 36vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    line-height: 19px;
 }
 
-.car2 img{
-    position: absolute;
-    right: 70px;
-    height: 400px;
-    width: 700px;
+.car2 {
+    width: 46vw;
 }
 
-span{
+.title-two-dfColor {
     color: #5e72e4;
 }
 
-.title-two h1{
+.pg2-title{
     font-family: sans-serif;
     font-size: 4em;
-    width: 8em;
-    
+    font-weight: 800;
+    width:40vw;
     color: black;
 }
 
-.btn a{
+.pg2-btn {
     margin-top: 30px;
     background-color: #5e72e4;
-    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
     color: #ffffff;
     font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 
@@ -235,7 +242,6 @@ span{
 
 
 /* PAGE FOUR */
-
 .page-four {
     width: 100vw;
     height: 700px;
@@ -274,12 +280,9 @@ span{
     border: 2.5px white solid;
     box-shadow: -4px 6px 20px #00000011;
 }
-.email:hover{
-    transform: scale(1.08);
-}
 
-/* Botao da pagina four */
-.contact-btn{
+/* Botao da pagina four  !!!ARRUMAR */
+.contact-btn {
     text-align: center;
     font-family: 'Roboto';
     font-size: 25px;
