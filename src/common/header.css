@@ -118,7 +118,7 @@ header * {
     header {
         background-color: #55595c;
         height: 50px;
-        position: fixed;
+        position: initial;
         top: 0;
         width: 100%;
     }
@@ -141,7 +141,7 @@ header * {
     header {
         background-color: #55595c;
         height: max-content;
-        position: fixed;
+        position: initial;
         top: 0;
         width: 100%;
     }
