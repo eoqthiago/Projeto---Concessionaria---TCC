@@ -200,49 +200,9 @@ main{
 }
 
 
+                  /* PAGE FOUR */
 
-
-    /* PAGE THREE */
-
-
-
-/* .page-three{
-    width: 100vw;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 200px;
-    
-}
-
-
-.painel-principal{
-    background-color: #E5E5E5;
-}
-
-.painel-principal h1{
-    font-family: sans-serif;
-}
-
-.items-three{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-
-.car-turning{
-    margin-left: 50px;
-}
-
-.title-page-three-items{
-    font-family: sans-serif;
-} */
-
-
-
-/* PAGE FOUR */
-.page-four {
+.page-contato {
     width: 100vw;
     height: 700px;
     background: url(../../assets/images/bmw-left.jpg) no-repeat;
@@ -251,13 +211,6 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.title-four{
-    color: #0952f0;
-    font-family: 'Roboto';
-    font-size: 40px;
-    padding: .7em 0em;
 }
 
 .card-form{
@@ -279,16 +232,17 @@ main{
     padding-left: 10px;
     border: 2.5px white solid;
     box-shadow: -4px 6px 20px #00000011;
+    margin-bottom: 20px;
 }
 
-/* Botao da pagina four  !!!ARRUMAR */
+/* Botao da pagina contato  Arrumei */
 .contact-btn {
-    text-align: center;
+    width: 100%;
+    max-width: 550px;
     font-family: 'Roboto';
     font-size: 25px;
     text-decoration: none;
     transition: .3s ease-in-out;
-    margin-bottom: 2em;
     box-shadow: -4px 6px 20px #000000b2;
     text-decoration: none;
     
@@ -305,11 +259,60 @@ main{
     font-family: sans-serif;
 }
 
-.contact-btn a:hover {
-    transform: scale(1.08);
+.contact-btn:hover {
+    transform: scale(1.03);
     background-color: transparent;
-    color: #000000;
+    color: #ffffff;
+    background-color: #5e72e4;
     box-shadow: -4px 6px 20px #ffffff0c;
+}
+
+
+/* FOOTER */
+
+
+.page-end{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+.row-items{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.items-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+
+.items-1 h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ebebeb;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.items-1 li{
+    text-align: center;
+    color: #a9a7a7;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.items-1 li:hover{
+    color: #ffffff;
 }
 
 
