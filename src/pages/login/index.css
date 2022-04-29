@@ -1,0 +1,119 @@
+.cnt-header {
+    width: 100%;
+    padding: 0.8em;
+    background-color: black;
+
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+    background-image: url(../../assets/Icons/icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    background-position: 4em -0.2em;
+    margin-bottom: 2em;
+}
+
+.cnt-lgn-bx {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 500px;
+    padding: 1em;
+    border-radius: 0.2em;
+    background-color: #ECD9D978;
+    box-shadow: 5px 14px 15px -15px rgba(0,0,0,0.64);
+    margin-bottom: 10em;
+}
+
+.cnt-forms-n-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: -6em;
+}
+
+.usr {
+    display: flex;
+    flex-direction: column;
+    height: 5em;
+    width: auto;
+    justify-content: space-between;
+    margin: 7.7em 0em 0em 0.7em;
+}
+
+.usr img{
+    height: auto;
+    width: auto;
+    border: 1px black;
+    border-radius: 30px;
+
+    background-color: rgba(0, 0, 0, 0.097);
+}
+
+
+#cnt-logbx-h1 {
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #357AE2;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 1em 0em 1em 0em;
+}
+
+.ctn-fld-inpt {
+    margin: 8em 0em 0em 7em;
+}
+
+#email-insrt {
+    width: 16em;
+    height: 2em;
+    padding: 1em;
+    background-color: #E5DDDD;
+    border-radius: 1em;
+    border: transparent;
+    transform: none;
+}
+
+#email-insrt:focus {
+    outline: none;
+}
+
+
+#user-psswrd {
+    width: 16em;
+    height: 2em;
+    padding: 1em;
+    background-color: #E5DDDD;
+    border-radius: 1em;
+    border: transparent;
+    transform: none;
+}
+
+#user-psswrd:focus {
+    outline: none;
+}
+
+.btn-cnt-lgbx {
+    height: 2.1em;
+    width: 11em;
+    border-radius: 1em;
+    background-color: #357AE2;
+    border: 1px solid #0066ff;
+    margin-top: 1.5em;
+}
+
+#btn-link-insider {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.img-user-cntbx {
+    height: 3.5em;
+    width: 2em;
+    background-image: url(../../assets/Icons/user-icon.png);
+    background-repeat: no-repeat;
+}

@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="../../common/header.css">
-    <link rel="stylesheet" href="../../common/common.css">
-    <title>Sigma - Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../common/common.css"> 
+    <title>login</title>
 </head>
+
 <body>
-    <header id="header">
-        <a class="fonts-p1" id="header-logo" href="#">SIGMA</a>
-        <nav class="menu-nav">
-            <ul>
-                <li><a class="fonts-p1" href="../home/index.html">Voltar à página inicial</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-
-        <div class="side-dec">
-            
+    <section class="cnt-fr-all">
+        <div class="cnt-header">
+            Sigma
         </div>
+        
+        <center>
+        <div class="cnt-lgn-bx">
+            <div class="sub-cnt-lgn-bx">
+                <h1 id="cnt-logbx-h1">Faça seu login</h1>
+                <img src="../../assets/Icons/agrred2.png">
 
-        <div class="login-box">
-            <div class="message"></div>
-            <div class="form-items">
-
+                <div class="cnt-forms-n-icons">
+                <form class="ctn-fld-inpt">
+                    <label class="eml-lbl" for="lname"></label>
+                    <input type="email" id="email-insrt" name="email-insrt" placeholder="EMAIL"><br><br>
+                    <label class="pswrd-lbl"></label>
+                    <input type="password" id="user-psswrd" name="user-psswrd" placeholder="PASSWORD">
+                  </form>
+                  <div class="usr">
+                      <img src="../../assets/Icons/users-icons2.png" />
+                      <img src="../../assets/Icons/users-icons.png"/>
+                  </div>
+                </div>
+                  <button class="btn-cnt-lgbx"><a id="btn-link-insider" href="#">LOGIN</a></button>
             </div>
-        </div>
-    </main>
-    
+        </center>
+            </div>
+         </div>
+    </section>
 </body>
 </html>
