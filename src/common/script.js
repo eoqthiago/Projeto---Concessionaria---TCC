@@ -17,10 +17,4 @@ function scrollFunction() {
     document.getElementById("header-item").style.fontSize = "1em";
     document.getElementById("user").style.transform = "";
   }
-
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-    document.getElementById("return").style.display = "initial";
-  } else {
-    document.getElementById("return").style.display = "none";
-  }
 }
