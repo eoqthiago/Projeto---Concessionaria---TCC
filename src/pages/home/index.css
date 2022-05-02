@@ -14,7 +14,7 @@ section {
 .inicial {
     width: 100vw;
     height: 700px;
-    background: url(../../assets/images/bmw-backt.png) no-repeat;
+    background: url(../../assets/images/bmw-backt.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -194,7 +194,7 @@ section {
 .page-contato {
     width: 100vw;
     height: 700px;
-    background: url(../../assets/images/bmw-left.jpg) no-repeat;
+    background: url(../../assets/images/bmw-left.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
