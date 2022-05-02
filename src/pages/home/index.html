@@ -18,9 +18,7 @@
         }
     </script>        
 </head>
-<body>
-
-    <div id="return"><a href="#header"><center><img src="../../assets/images/toTop.svg" alt="Volte para o topo"></center></a></div>
+<body>  
 
     <header id="header">
         <div>
@@ -28,7 +26,6 @@
         </div>
         <nav class="menu-nav" id="header-item">
             <ul>
-                <li><a class="fonts-p1" href="#inicial">Inicio</a></li>
                 <li><a class="fonts-p1" href="#info">Informações</a></li>
                 <li><a class="fonts-p1" href="#contato">Contato</a></li>
                 <a href="../login/index.html"><i class="fa-light fa-user fa fb"></i></a>
@@ -37,17 +34,16 @@
     </header>
 
     <main>
+
         <section class="inicial" id="inicial">
             <div class="card">
-                    <div class="titles">
-                        <a class="inicial-title">Conheça a Concessionária Sigma</a>
-                    </div>
-                    <div class="presentation">
-                        <a class="presentation-text">
-                            Aqui na Sigma, você encontra vendedores totalmente preparados para te ajudar com todas as etapas da compra de um carro de luxo, desde a escolha até a papelada, além de uma ótima gama de marcas e modelos.
-                        </a>
-                    </div>
-                <button class="presentation-btn">Descobrir</button>
+                <div class="inicial-title">Conheça a Concessionária Sigma</div>
+
+                <div class="presentation-text">
+                    Aqui na Sigma, você encontra vendedores totalmente preparados para te ajudar com todas as etapas da compra de um carro de luxo, desde a escolha até a papelada, além de uma ótima gama de marcas e modelos.
+                </div>
+                
+                <a href="#info"><button class="presentation-btn">Descobrir</button></a>
             </div>
         </section>
 
@@ -55,11 +51,9 @@
         <section class="page-one" id="info">
             <div class="titles">
                 <h2 class="p1-subtitles">900 HP 6.8 SUPERCHARGED V8</h2>
-                <div class="linha"></div>
                 <h1>FASTEST OF THE PACK</h1>
-                <div class="linha"></div>
                 <p class="p1-para">MSRP 569,096 / MSRP TACK PACK 76,983 </p>
-                <a class="p1-text" href="">Saiba mais</a>
+                <a class="p1-text" href="#">Saiba mais</a>
 
                 <div class="redes-sociais">
                     <i class="fa fa-instagram"></i>
@@ -67,7 +61,6 @@
                     <i class="fa fa-twitter"></i>
                 </div>
             </div>
-
                 <img class="car" src="../../assets/images/BMW-M6-Gran-Coupe__1_-removebg-preview.png" alt="" srcset="">
         </section>
 
@@ -75,22 +68,24 @@
             <img class="car2" src="../../assets/images/bmw-m6-lado.png" alt="" srcset="">
 
             <div class="title-two">
-                <div class="pg2-title"><span class="title-two-dfColor">BMW M6</span> GRAND COUPE</div>
+                <div class="pg2-title">
+                    <div style="color: #5e72e4;"> BMW M6 </div>
+                    GRAND COUPE
+                </div>
                 <div class="pg2-paraph">O BMW M6 é uma versão de alto desempenho do coupé / conversível da Série 6, projetado e desenvolvido pela divisão de automobilismo da BMW.</div>
-                <button class="pg2-btn"><a href="#">Saiba Mais</a></button>
+                <button class="pg2-btn"><a href="https://en.wikipedia.org/wiki/BMW_M6">Saiba Mais</a></button>
             </div>
         </section>
       
         <section class="page-contato" id="contato">
-            <div class="card-form">
-                <form action="" id="formulario">
-                    <h1>OI</h1>
+
+                <form action="" id="formulario" class="card-form">
                     <input class="email" id="nome" type="text" name="name" placeholder="Digite Seu Nome">
                     <input class="email" id="useremail" type="email" name="email" placeholder="Qual seu Melhor E-mail?">
-                    <textarea class="email" name="message" id="message" placeholder="Mensagem" ></textarea>
+                    <textarea class="email msg-form" name="message" id="message" placeholder="Mensagem" ></textarea>
                     <button id="button-contact" class="contact-btn" href="">Enviar</button>
                 </form>
-            </div>
+
             <!-- popup ativado apenas quando clicar no button -->
             <div class="popup-wrapper">
                 <div class="popup">
@@ -104,37 +99,38 @@
                 </div>
             </div>
         </section>
-        <footer class="page-end">
-            <div class="row-items">
-                <div class="items-1">
-                    <h4>Developers</h1>
-                    <ul>
-                        <li>Thierry  | Thiago</li>
-                        <li>Nicholas | Rodrigo</li>
-                        <li>Vinicius | Matheus</li>
-                    </ul>
-                </div>
-                <div class="items-1">
-                    <h4>Contact</h1>
-                    <ul>
-                        <li>Sigma@gmail.com</li>
-                        <li>Tel: (11) 9999-999</li>
-                        <li>Av. Constelar, 401</li>
-                    </ul>
-                </div>
-                <div class="items-1">
-                    <h4>More</h1>
-                    <ul>
-                        <li>About</li>
-                        <li>Security</li>
-                        <li>Help</li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        </footer>
     </main>
+
+
+    <footer class="page-end">
+        <div class="row-items">
+            <div class="items-1">
+                <h4>Developers</h1>
+                <ul>
+                    <li>Thierry  | Thiago</li>
+                    <li>Nicholas | Rodrigo</li>
+                    <li>Vinicius | Matheus (em memória)</li>
+                </ul>
+            </div>
+            <div class="items-1">
+                <h4>Contact</h1>
+                <ul>
+                    <li>Sigma@gmail.com</li>
+                    <li>Tel: (11) 9999-999</li>
+                    <li>Av. Constelar, 401</li>
+                </ul>
+            </div>
+            <div class="items-1">
+                <h4>More</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Security</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     <script src="./app.js"></script>
 </body>
 </html>

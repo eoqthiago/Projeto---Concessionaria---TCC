@@ -3,13 +3,18 @@ main{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 95vw;
 }
 
     /* INICIAL */
 .inicial {
     width: 100vw;
     height: 700px;
-    background: url(../../assets/images/bmw-backt.jpg) no-repeat;
+    background: url(../../assets/images/bmw-backt.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,17 +30,18 @@ main{
 
 .inicial-title {
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 37px;
-    font-weight: 800;
-    line-height: 40px;
+    font-weight: 500;
     padding: .7em 0em;
 }
 
 .presentation-text {
     color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    margin-top: 1em;
+    font-weight: 400;
 }
 
 .presentation-btn {
@@ -48,9 +54,9 @@ main{
     border: 2.5px white solid;
     padding: .3em 1.2em;
     margin: 1em 0em;
-    box-shadow: -4px 6px 20px #0000007e;
-    transition: .3s ease-in-out;
+    transition: .2s;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .presentation-btn:hover {
@@ -62,21 +68,12 @@ main{
 
     /* PAGE ONE */
 .page-one{
-    width: 100vw;
     height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 3em 0em;
-}
-
-.linha{
-    background-color: #5e72e4;
-    width: 40vw;
-    height: .9vw;
-    min-height: 5px;
-    margin: .5em 0;
+    padding: 6.5em 0em;
 }
 
 .titles{
@@ -88,10 +85,8 @@ main{
 
 .titles h1{
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 6vw;
-    letter-spacing: 0px;
-    line-height: auto;
     width: 7em;
     color: #5e72e4;
 }
@@ -117,6 +112,7 @@ main{
 
 .car{
     background-image: url(../../assets/images/Group\ 2.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 39vw;
@@ -151,7 +147,6 @@ main{
 
     /* PAGE TWO */
 .page-two{
-    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -167,16 +162,11 @@ main{
 .pg2-paraph{
     width: 36vw;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4vw;
-    line-height: 19px;
+    font-size: 17px;
 }
 
 .car2 {
     width: 46vw;
-}
-
-.title-two-dfColor {
-    color: #5e72e4;
 }
 
 .pg2-title{
@@ -197,11 +187,10 @@ main{
     font-family: sans-serif;
     font-size: 1em;
     font-weight: 600;
+    cursor: pointer;
 }
 
-
-                  /* PAGE FOUR */
-
+    /* CONTACT PAGE */
 .page-contato {
     width: 100vw;
     height: 700px;
@@ -214,63 +203,55 @@ main{
 }
 
 .card-form{
-    background-color: rgba(0, 0, 0, 0.32);
-    margin-left: 4vw;
-    width: 33vw;
-    padding: 2em;
+    background-color: #00000052;
+    width: fit-content;
     height: fit-content;
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
 }
 
 .email{
-    width: 100%;
+    width: 30vw;
     max-width: 550px;
-    border: 1px solid #ccc;
+    min-width: 170px;
     background: #fff;
     font-size: 16px;
     height: 40px;
     padding-left: 10px;
     border: 2.5px white solid;
-    box-shadow: -4px 6px 20px #00000011;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
 }
 
-/* Botao da pagina contato  Arrumei */
+.msg-form { height: 80px; }
+
 .contact-btn {
+    margin-top: .4em;
     width: 100%;
     max-width: 550px;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-size: 25px;
-    text-decoration: none;
-    transition: .3s ease-in-out;
+    transition: .15s;
     box-shadow: -4px 6px 20px #000000b2;
-    text-decoration: none;
-    
-}
-
-.contact-btn a{
-    color: #ffffff;
-}
-
-.contact-btn{
     background-color: #5e72e4;
-    padding: 10px 40px;
+    padding: 10px 0;
     color: #ffffff;
-    font-family: sans-serif;
+    cursor: pointer;
 }
 
 .contact-btn:hover {
-    transform: scale(1.03);
-    background-color: transparent;
+    transform: scale(1.02);
     color: #ffffff;
     background-color: #5e72e4;
-    box-shadow: -4px 6px 20px #ffffff0c;
 }
 
 
 /* FOOTER */
-
-
 .page-end{
     display: flex;
     flex-direction: column;
@@ -309,33 +290,12 @@ main{
     font-family: sans-serif;
     margin-bottom: 20px;
     margin-top: 5px;
+    cursor: default;
 }
 
 .items-1 li:hover{
     color: #ffffff;
-}
-
-
-
-
-/*voltar ao topo - botão*/
-#return {
-    width: 30px;
-    height: 30px;
-    background-color: yellow;
-    border-radius: 40px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    display: none;
-}
-
-#return img {
-    width: 70%;
+    text-decoration: underline;
 }
 
 
