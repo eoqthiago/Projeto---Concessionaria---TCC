@@ -1,3 +1,7 @@
+* {
+    z-index: 1;
+}
+
 header {
     background-color: #55595c;
     height: 50px;
@@ -24,13 +28,44 @@ main {
 
 .login-box {
     display: flex;
+    position: relative;
     flex-direction: column;
-    background-color: #eeeeee;
+    background-color: #ffffff;
     width: fit-content;
     align-items: center;
     padding: 4em 8em;
     border-radius: .5em;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.637);
+    overflow:hidden;
+    box-shadow: 3px 3px 8px rgba(87, 86, 86, 0.637);
+}
+
+.login-box::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 62em;
+    overflow: hidden;
+    margin-top: -20em;
+    background: linear-gradient(rgba(200, 0, 255, 0.746), rgb(0, 140, 255));
+    animation: animate 6s linear infinite; 
+}
+
+.login-box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:#ffffff;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }    
+    100%
+    {
+        transform: rotate(360deg);
+    }
 }
 
 .login-box-title {
@@ -54,7 +89,7 @@ main {
 .input-field {
     border: none;
     outline: none;
-    background-color: #b9b9b9;
+    background-color: #70798b46;
     color: #3b3b3b;
     border-radius: 2px;
     padding: 5px 10px;
