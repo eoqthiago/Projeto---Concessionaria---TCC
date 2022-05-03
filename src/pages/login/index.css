@@ -19,7 +19,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12vw;
+    margin-top: 5vw;
 }
 
 .login-box {
@@ -30,7 +30,7 @@ main {
     align-items: center;
     padding: 4em 8em;
     border-radius: .5em;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.637);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.637);
 }
 
 .login-box-title {
@@ -69,7 +69,7 @@ main {
 .login-button {
     background-color: #c9c7c7;
     border-radius: 3em;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #303030;
     padding: .4em 1.7em;
