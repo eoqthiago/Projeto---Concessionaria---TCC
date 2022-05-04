@@ -1,0 +1,37 @@
+header {
+    background: #000000 url(../../assets/Icons/icon-white.png);
+    height: 50px;
+    position: initial;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-logo {
+    font-size: 1.56em;
+}
+
+#header-item {
+    font-size: .8em;
+}
+
+.geren-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    width: 70em;
+    justify-content: space-between;
+}
+
+.geren-header li {
+    font-family: 'ubuntu';
+    font-size: 26px;
+    font-weight: 600;
+    color: #1E598F;
+} 
+

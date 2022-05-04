@@ -2,13 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-
-
-@font-face {
-    font-family: 'ubuntu-bold';
-    src: url(../../assets/fonts/Ubuntu/Ubuntu-Bold.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 *{
     padding: 0;
