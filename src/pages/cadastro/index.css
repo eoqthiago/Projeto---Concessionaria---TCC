@@ -1,0 +1,86 @@
+header {
+    background-color: #000000;
+    background-image: url(../../assets/Icons/icon-white.png) 1em 0em;
+    height: 50px;
+    position: initial;
+    top: 0;
+    width: 100%;
+}
+
+#header-logo {
+    font-size: 1.56em;
+}
+
+#header-item {
+    font-size: .8em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle {
+    font-family: 'Roboto';
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 3.5em;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    height: 35em;
+    padding: 1em 2em 2em 2em;
+    width: 28em;
+    border-radius: 1em;
+    background-color: #3F75FF;
+}
+
+.main-cont li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1em;
+    justify-content: space-between;
+    outline: none;
+    font-family: 'Roboto';
+    color: #fff;
+} 
+
+.main-cont ul {
+    margin-top: 1em;
+}
+
+.main-cont input {
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: 600;
+    width: 16em;
+    padding: .2em;
+    outline: none;
+    background-color: #ffffff;
+    border: none;
+}
+
+.button {
+    font-family: 'ubuntu';
+    font-weight: 600;
+    color: #0b5ecb;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fff;
+
+    height: 2.5em;
+    width: 12em;
+    padding: .6em;
+    border-radius: 2em;
+    margin: 2em 0em 0em 6em;
+}
+
+.button:hover {
+   transform: scale(1.1); 
+   transition: .3s;
+}
