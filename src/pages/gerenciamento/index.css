@@ -70,18 +70,12 @@ main {
 }
 
 
-.main-table-cont-header {
+.main-table-cont-header{
     display: flex;
-    height: fit-content;
     width: 68em;
     flex-direction: row;
-    justify-content: space-between;
+    margin-left: 4em;
 }
 
-.main-table-cont-header li {
-    font-family: ;
-    font-size: ;
-    font-weight: 550;
-} 
 
 

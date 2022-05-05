@@ -39,3 +39,13 @@ li {
 a, a:hover, a:active {
     text-decoration: none;
 }
+
+
+
+td, th {
+    padding: 10px;
+}
+
+td{
+    background-color: #bdbdbd;
+}
