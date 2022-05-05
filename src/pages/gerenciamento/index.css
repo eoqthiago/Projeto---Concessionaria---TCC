@@ -60,25 +60,24 @@ main {
 
 .main-table-cont {
     display: flex;
+    flex-direction: row;
     height: fit-content;
     width: 75em;
     height: 30em;
     padding: 1em;
     background: #a79b9b5b;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 
 .main-table-cont-header {
     display: flex;
+    flex-direction: row;
     height: fit-content;
     width: 68em;
-    flex-direction: row;
     justify-content: space-between;
 }
 
-.main-table-cont-header li {
+.main-table-cont-header th {
     font-family: ;
     font-size: ;
     font-weight: 550;

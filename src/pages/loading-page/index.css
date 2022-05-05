@@ -1,19 +1,21 @@
-main {
-    display: flex;
+body {
+    display: flex; 
     flex-direction: column;
     align-items: center;
-    margin-top: 14.5vw;
+    background-color: #528FEC;
 }
 
 .loading-tittle {
     font-family: 'Roboto';
+    color: #ffffff;
     font-size: 30px;
     font-weight: 500;
+    margin: 6em 0em 0em 0em;
 }
 
 .loading-animation {
     content: '';
-    margin: 2.5em 0em 0em .5em;
+    margin-top: 1em;
     position: absolute;
     overflow: hidden;
     animation: animate 1.8s linear infinite; 
