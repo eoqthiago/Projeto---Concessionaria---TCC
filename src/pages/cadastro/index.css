@@ -17,70 +17,57 @@ header {
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.tittle {
-    font-family: 'Roboto';
-    color: #fff;
-    text-transform: uppercase;
-    margin-left: 3.5em;
+    flex-direction: row-reverse;
 }
 
 .main-cont {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
-    height: 35em;
-    padding: 1em 2em 2em 2em;
-    width: 28em;
-    border-radius: 1em;
-    background-color: #3F75FF;
+    height: 42.2em;
+    width: 38em;
+    padding: 1.5em 1.5em 0em 1.5em;
+    text-align: center;
+
+    justify-content: space-around;
+    background-color: #ffffff;
 }
 
-.main-cont li{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 1em;
-    justify-content: space-between;
-    outline: none;
+.tittle {
     font-family: 'Roboto';
-    color: #fff;
-} 
+    text-decoration: underline;
+    color: #3d44bd;
+}
 
 .main-cont ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 33em;
+    width: 32em;
     margin-top: 1em;
+    padding: .6em;
+
+    background-color: #dadada;
+    border-radius: .5em;
+    text-align: center;
 }
 
 .main-cont input {
-    font-family: 'Roboto';
-    color: #000000;
-    font-weight: 600;
-    width: 16em;
-    padding: .2em;
-    outline: none;
-    background-color: #ffffff;
-    border: none;
-}
-
-.button {
-    font-family: 'ubuntu';
-    font-weight: 600;
-    color: #0b5ecb;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: #fff;
-
     height: 2.5em;
-    width: 12em;
-    padding: .6em;
-    border-radius: 2em;
-    margin: 2em 0em 0em 6em;
+    width: 16.7em;
+    margin: 2em 0em 0em .7em;
+    padding: .5em;
 }
 
-.button:hover {
-   transform: scale(1.1); 
-   transition: .3s;
+.sending-btn {
+    font-family: 'ubuntu';
+    height: 3em;
+    width: 12em;
+    margin-top: 4em;
+    padding: .8em;
+    border-radius: 2em;
+
+    text-align: center;
+    background-color: #3d44bd;
+    color: #ffffff;
 }

@@ -174,7 +174,7 @@ section {
     font-size: 4em;
     font-weight: 800;
     width:40vw;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .pg2-btn {
@@ -300,28 +300,95 @@ section {
 
 
 /* Celular - portrait */
-@media all and (max-width: 480px) {
-    .inicial {
-        background-position: center left;
-        height: 400px;
+@media all and (min-width: 480px) and (max-width: 550px) {
+
+    header {
+        width: 490px;
     }
 
-    .card {
-        width: 27vh;
+    main {
+        width: 25em;
+    }
+
+    .inicial {
+        width: 35em;
+        background-position: left-center;
     }
 
     .inicial-title {
         font-size: 28px;
-        padding: .5em 0;
+        padding: .5em;
+    }
+
+    .card {
+        margin-left: 6em;
     }
 
     .presentation-text {
         font-size: 16px;
-        line-height: 12px;
+        line-height: 20px;
+        margin-left: 1em;
     }
 
     .presentation-btn {
         display: none;
+    }
+
+    .page-one {
+        width: 27.6em;
+        margin-left: 4em;
+    }
+
+    .page-two {
+        width: 27.6em;
+        margin: 0em 0em 1em 7em;
+    }
+
+    .pg2-title {
+        font-size: 20px;
+    }
+
+    .car2 {
+        height: 35vw;
+    }
+
+    .p1-subtitles {
+        display: none;
+    }
+
+    .p1-para {
+        display: none;
+    }
+
+    .pg2-paraph {
+        display: none;
+    }
+
+    .formulario.card-form {
+        height: 5em;
+    }
+
+    .page-contato {
+        height: 28em;
+        width: 35.4em;
+    }
+
+    .card-form {
+        margin-left: 7em;
+    }
+
+    .contact-btn {
+        font-size: 20px;
+        height: 2em;
+    }
+
+    .page-end {
+        height: 15em;
+        width: 30.17em;
+    }
+
+    .row-items {
+        margin-right: 2em;
     }
 }
 
@@ -432,4 +499,3 @@ section {
     .listra-fundo{
         display: none;
     }*/
-}
