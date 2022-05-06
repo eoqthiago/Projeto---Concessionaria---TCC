@@ -1,0 +1,74 @@
+header {
+    background-color: #000000;
+    background-image: url(../../assets/Icons/icon-white.png) 1em 0em;
+    height: 50px;
+    position: initial;
+    top: 0;
+    width: 100%;
+}
+
+#header-logo {
+    font-size: 1.56em;
+}
+
+#header-item {
+    font-size: .8em;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    height: 42.2em;
+    width: 38em;
+    padding: 4em 1.5em 0em 1.5em;
+    margin-left: 2em;
+    text-align: center;
+
+    background-color: #ffffff;
+}
+
+.tittle {
+    font-family: 'Roboto';
+    font-size: 28px;
+    text-decoration: underline;
+    color: #3d44bd;
+}
+
+.main-cont ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 28em;
+    width: 32em;
+    padding: .6em;
+
+    background-color: #dadada;
+    border-radius: .5em;
+    text-align: center;
+}
+
+.main-cont input {
+    height: 2.5em;
+    width: 16.7em;
+    margin: 2em 0em 0em .7em;
+    padding: .5em;
+    outline: none;
+}
+
+.sending-btn {
+    font-family: 'ubuntu';
+    height: 3em;
+    width: 12em;
+    margin-top: 2em;
+    padding: .8em;
+    border-radius: 2em;
+
+    text-align: center;
+    background-color: #3d44bd;
+    color: #ffffff;
+}
