@@ -315,21 +315,20 @@ section {
 }
 
 /* Celular - landscape */
-@media all and (min-width: 480px) and (max-width: 550px) {
-
+@media all and (max-width: 500px) {
 
     main {
-        width: 40em;
+        width: 31em;
     }
 
-
     header {
-        width: 100%;
+        width: 31em;
     }
 
     .inicial {
-        width: 40em;
-        margin-right: 16em;
+        width: 33em;
+        height: 28em;
+        padding: 1em;
     }
 
     .inicial-title {
@@ -339,6 +338,7 @@ section {
 
     .presentation-text {
         font-size: 16px;
+        width: 17em;
         line-height: 20px;
         margin-left: 1em;
     }
@@ -352,27 +352,43 @@ section {
     }
 
     .page-one {
+        flex-direction: column;
         width: 30em;
-        margin-left: 3em;
+        padding: 3em;
+        margin-left: 1.5em;
     }
 
     .page-two {
-        width: 29em;
-        margin: 0em 10em 1em 0em;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 32em;
+        margin: 0em 5.5em 1em 0em;
     }
 
     .pg2-title {
         font-size: 22px;
+        margin-left: 1.1em;
     }
 
     .pg2-paraph {
-        width: 15em;
+        font-size: 14px;
+        margin-left: 2em;
+        width: 12em;
+    }
+
+    .redes-sociais {
+        width: 10em;
+        margin-bottom: 1em;
     }
 
     .car2 {
         height: 40vw;
-        width: 75vw;
-        margin-left: 9em;
+        width: 50vw;
+        margin-left: 5em;
+    }
+
+    .pg2-btn {
+        margin: 2em 0em 0em 1.7em;
     }
 
     .formulario.card-form {
@@ -381,46 +397,47 @@ section {
 
     .page-contato {
         height: 28em;
-        width: 40em;
+        width: 44.2em;
+        font-size: 15px;
+        margin-right: 9em;
     }
 
     .card-form {
-        margin-left: 3em;
+        height: 20em;
+        margin-left: 10em;
     }
 
     .contact-btn {
         font-size: 20px;
-        height: 2em;
+        text-align: center;
+        height: 1.9em;
     }
 
     .page-end {
-        width: 40em;
+        width: 32em;
+        height: 14em;
     }
 
     .row-items {
-        margin-right: 2em;
+        font-size: 14px;
+        margin: 1.5em 3em 0em 0em;
     }
 }
 
 /* Tablet */
-@media all and (max-width: 767px) {
+/*@media all and (max-width: 767px) {
 
     main {
         width: 40em;
     }
 
-    #header {
-        width: 120vw;
-    }
-
     .inicial {
         height: 550px;
-        width: 125.1vw;
-        margin-left: 15em;
+        width: 80.1vw;
+        margin-left: 0em;
     }
 
     .card {
-        margin-left: 4em;
         width: 90vh;
     }
 
@@ -440,10 +457,6 @@ section {
 
 /* Tablet - portrait */
 @media all and (max-width: 1024px) and (min-width: 768px) {
-    .inicial {
-        height: 550px;
-    }
-
     .card {
         width: 44vh;
     }

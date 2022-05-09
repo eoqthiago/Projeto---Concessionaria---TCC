@@ -60,3 +60,17 @@ main {
 .btn-card:hover {
     background-color: #4949e9;
 }
+
+/*@media all and (max-width: 500px) {
+    .cards-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        flex-direction: row;
+        height: 10em;
+        width: 10em;
+        margin: 0em 20em 2em 0em;
+    }
+}*/

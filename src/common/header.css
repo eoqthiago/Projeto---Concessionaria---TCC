@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-    background-color: #010d165e;
+    background-color: #010d1600;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -15,7 +15,7 @@ header {
 }
 
 header * {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #user{
@@ -84,13 +84,14 @@ header * {
 
 
 /* Celular - portrait */
-@media all and (max-width: 500px) {
+@media all and (min-width: 480px) and (max-width: 500px) {
     header {
         background-color: #55595c;
         height: max-content;
-        width: 31em;
+        font-size: 15px;
+        width: 20em;
         padding: 5px 10px;
-        height: min-content;
+        height: 0em;
     }
 
     #header-logo {
