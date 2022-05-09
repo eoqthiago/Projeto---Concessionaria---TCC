@@ -20,62 +20,61 @@ main {
     font-size: .8em;
 }
 
-.geren-header {
+.adm-top-bar {
     display: flex;
     flex-direction: row;
     margin-top: 2em;
     height: 2.3em;
-    width: 40em;
+    width: 100vw;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    margin: 5vh 0 3vh 0;
+}
 
-    font-family: 'ubuntu';
-    font-size: 26px;
+.adm-top-bar-title {
+    font-family: 'Roboto-condensed', 'Helvetica';
+    font-size: 38px;
+    letter-spacing: -1px;
     font-weight: 600;
     color: #1E598F;
 }
 
-.search-bar {
+.adm-search-field {
     display: flex;
     flex-direction: row;
-
-    height: 1.2em;
+    align-items: center;
+    border-radius: 30em;
+    background-color: #E2E2E2;
+    height: fit-content;
     width: fit-content;
+    padding: 4px 1vw;
+    border: .4px solid #6B6B6B;
 }
 
-.search-bar img{
-    height: 1.05em;
-    border-radius: 0em .5em .5em 0em;
-    background-color: #9f92923e; 
-}
-
-.input-field {
-    height: 2em;
-    width: 14.4em;
-    border-radius: 1em 0em 0em 1em;
-    padding: .5em;
-    background-color: #9f92923e;
+.adm-search-field input {
     outline: none;
     border: none;
+    background-color: inherit;
+    color: #656565;
 }
 
-.main-table-cont {
-    display: flex;
-    height: fit-content;
-    width: 75em;
-    height: 30em;
-    padding: 1em;
-    background: #a79b9b5b;
-    flex-direction: row;
-    justify-content: space-between;
+.adm-table {
+    background-color: #E2E2E2;
+    width: 95vw;
+    padding: 1vw .5vw;
 }
 
-
-.main-table-cont-header{
-    display: flex;
-    width: 68em;
-    flex-direction: row;
-    margin-left: 4em;
+.adm-table th {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
 }
 
-
-
+.adm-table td {
+    height: 30px;
+    font-family: 'Roboto';
+    color: #3D3D3D;
+    font-size: 15px;
+}
