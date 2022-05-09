@@ -99,3 +99,39 @@ main {
     background-color: #3787ff;
     color: #fff;
 }
+
+/* Celular - landscape */
+@media all and (min-width: 480px) and (max-width: 550px) {
+
+    Main {
+        height: 90vh;
+    }
+
+    .login-box {
+        width: 350px;
+        margin-top: 8em;
+        padding: 4em 0em;
+    }
+
+    .login-box-title {
+        color: #357AE2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+    }
+    
+
+    .input-field {
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    .form-image {
+        height: 28px;
+    }
+
+    .login-button {
+        background-color: #a49fbc;
+        font-size: 15px;
+        margin-top: .8em;
+    }
+}

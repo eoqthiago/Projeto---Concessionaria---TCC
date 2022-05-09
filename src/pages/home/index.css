@@ -40,7 +40,7 @@ section {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin-top: 1em;
+    margin-top: 1jem;
     font-weight: 400;
 }
 
@@ -163,17 +163,18 @@ section {
 .pg2-paraph{
     width: 36vw;
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .car2 {
     width: auto;
-    max-height: 180px;
+    max-height: 18em;
+    margin-bottom: 1em;
 }
 
 .pg2-title{
     font-family: sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 800;
     width:40vw;
     color: black;
@@ -313,108 +314,27 @@ section {
     text-decoration: underline;
 }
 
-
-/* Celular - portrait */
-@media all and (max-width: 480px) {
-    .inicial {
-        background-position: center left;
-        height: 400px;
-    }
-
-    .card {
-        width: 27vh;
-    }
-
-    .inicial {
-        background-position: center center;
-    }
-
-    .inicial-title {
-        font-size: 18px;
-        padding: 0 0;
-        color: #ffffff;
-    }
-
-    .presentation-text {
-        font-size: 15px;
-        line-height: auto;
-
-        color: rgb(255, 255, 255);
-    }
-
-    .presentation-btn {
-        display: none;
-    }
-
-    .page-one {
-        flex-direction: column-reverse;
-    }
-
-    .p1-subtitles {
-        font-size: 17px;
-    }
-
-    .p1-para {
-        font-size: 15px;
-    }
-
-    .page-two {
-        flex-direction: column;
-    }
-
-    .pg2-title {
-        font-size: 22px;
-        width: 94vw;
-    }
-
-    .pg2-paraph {
-        font-size: 15px;
-        width: 94vw;
-    }
-
-    .pg2-btn {
-        padding: 5px 20px;
-        font-size: 15px;
-    }
-
-    .hm-form-title {
-        font-size: 19px;
-    }
-
-    .email {
-        font-size: 15px;
-        height: 33px;
-    }
-
-    .contact-btn {
-        padding: 0;
-        font-size: 18px;
-    }
-}
-
 /* Celular - landscape */
 @media all and (min-width: 480px) and (max-width: 550px) {
 
-    header {
-        width: 490px;
-    }
 
     main {
-        width: 25em;
+        width: 40em;
+    }
+
+
+    header {
+        width: 100%;
     }
 
     .inicial {
-        width: 35em;
-        background-position: left-center;
+        width: 40em;
+        margin-right: 16em;
     }
 
     .inicial-title {
         font-size: 28px;
         padding: .5em;
-    }
-
-    .card {
-        margin-left: 6em;
     }
 
     .presentation-text {
@@ -423,26 +343,36 @@ section {
         margin-left: 1em;
     }
 
-    .presentation-btn .p1-subtitles .p1-para .pg2-paraph {
+    .presentation-btn {
+        display: none;
+    }
+
+    .p1-subtitles {
         display: none;
     }
 
     .page-one {
-        width: 27.6em;
-        margin-left: 4em;
+        width: 30em;
+        margin-left: 3em;
     }
 
     .page-two {
-        width: 27.6em;
-        margin: 0em 0em 1em 7em;
+        width: 29em;
+        margin: 0em 10em 1em 0em;
     }
 
     .pg2-title {
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .pg2-paraph {
+        width: 15em;
     }
 
     .car2 {
-        height: 35vw;
+        height: 40vw;
+        width: 75vw;
+        margin-left: 9em;
     }
 
     .formulario.card-form {
@@ -451,27 +381,43 @@ section {
 
     .page-contato {
         height: 28em;
-        width: 35.4em;
+        width: 40em;
     }
 
     .card-form {
-        margin-left: 7em;
+        margin-left: 3em;
     }
 
     .contact-btn {
         font-size: 20px;
         height: 2em;
     }
+
+    .page-end {
+        width: 40em;
+    }
 }
 
 /* Tablet */
 @media all and (max-width: 767px) {
+
+    main {
+        width: 40em;
+    }
+
+    #header {
+        width: 120vw;
+    }
+
     .inicial {
         height: 550px;
+        width: 125.1vw;
+        margin-left: 15em;
     }
 
     .card {
-        width: 44vh;
+        margin-left: 4em;
+        width: 90vh;
     }
 
     .inicial-title {
@@ -511,7 +457,6 @@ section {
         font-size: 20px;
     }
 
-    /*
     .items-page-one{
         flex-direction: column;
     }
@@ -545,5 +490,4 @@ section {
     .listra-fundo{
         display: none;
     }
-    */
 }
