@@ -84,12 +84,12 @@ header * {
 
 
 /* Celular - portrait */
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) {
     header {
         background-color: #55595c;
         height: max-content;
         position: initial;
-        width: 100%;
+        width: 10em;
         padding: 5px 10px;
         height: min-content;
     }
