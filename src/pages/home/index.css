@@ -150,6 +150,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: nowrap;
     height: fit-content;
     padding: 3em 0;
 }
@@ -166,12 +167,13 @@ section {
 }
 
 .car2 {
-    width: 46vw;
+    width: auto;
+    max-height: 180px;
 }
 
 .pg2-title{
     font-family: sans-serif;
-    font-size: 4em;
+    font-size: 35px;
     font-weight: 800;
     width:40vw;
     color: black;
@@ -221,9 +223,9 @@ section {
 }
 
 .email{
-    width: 30vw;
+    width: 100%;
     max-width: 550px;
-    min-width: 170px;
+    min-width: 150px;
     background: #fff;
     font-size: 16px;
     height: 40px;
@@ -323,18 +325,70 @@ section {
         width: 27vh;
     }
 
+    .inicial {
+        background-position: center center;
+    }
+
     .inicial-title {
-        font-size: 28px;
-        padding: .5em 0;
+        font-size: 18px;
+        padding: 0 0;
+        color: #ffffff;
     }
 
     .presentation-text {
-        font-size: 16px;
-        line-height: 12px;
+        font-size: 15px;
+        line-height: auto;
+
+        color: rgb(255, 255, 255);
     }
 
     .presentation-btn {
         display: none;
+    }
+
+    .page-one {
+        flex-direction: column-reverse;
+    }
+
+    .p1-subtitles {
+        font-size: 17px;
+    }
+
+    .p1-para {
+        font-size: 15px;
+    }
+
+    .page-two {
+        flex-direction: column;
+    }
+
+    .pg2-title {
+        font-size: 22px;
+        width: 94vw;
+    }
+
+    .pg2-paraph {
+        font-size: 15px;
+        width: 94vw;
+    }
+
+    .pg2-btn {
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+
+    .hm-form-title {
+        font-size: 19px;
+    }
+
+    .email {
+        font-size: 15px;
+        height: 33px;
+    }
+
+    .contact-btn {
+        padding: 0;
+        font-size: 18px;
     }
 }
 
@@ -369,7 +423,7 @@ section {
         margin-left: 1em;
     }
 
-    .presentation-btn {
+    .presentation-btn .p1-subtitles .p1-para .pg2-paraph {
         display: none;
     }
 
@@ -391,18 +445,6 @@ section {
         height: 35vw;
     }
 
-    .p1-subtitles {
-        display: none;
-    }
-
-    .p1-para {
-        display: none;
-    }
-
-    .pg2-paraph {
-        display: none;
-    }
-
     .formulario.card-form {
         height: 5em;
     }
@@ -420,6 +462,7 @@ section {
         font-size: 20px;
         height: 2em;
     }
+}
 
 /* Tablet */
 @media all and (max-width: 767px) {
