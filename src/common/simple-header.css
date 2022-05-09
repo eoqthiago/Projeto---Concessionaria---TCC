@@ -1,0 +1,16 @@
+header {
+    background-color: #000000;
+    background-image: url(../../assets/Icons/icon-white.png) 1em 0em;
+    height: 50px;
+    position: initial;
+    top: 0;
+    width: 100%;
+}
+
+#header-logo {
+    font-size: 1.56em;
+}
+
+#header-item {
+    font-size: .8em;
+}

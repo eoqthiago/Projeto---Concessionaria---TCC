@@ -1,23 +1,7 @@
-header {
-    background: #000000 url(../../assets/Icons/icon-white.png);
-    height: 50px;
-    position: initial;
-    top: 0;
-    width: 100%;
-}
-
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#header-logo {
-    font-size: 1.56em;
-}
-
-#header-item {
-    font-size: .8em;
 }
 
 .adm-top-bar {

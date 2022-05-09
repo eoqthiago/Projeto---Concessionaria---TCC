@@ -1,35 +1,15 @@
-* {
-    z-index: 1;
-}
-
-header {
-    background-color: #000000;
-    background-image: url(../../assets/Icons/icon-white.png) 1em 0em;
-    height: 50px;
-    position: initial;
-    top: 0;
-    width: 100%;
-}
-
-#header-logo {
-    font-size: 1.56em;
-}
-
-#header-item {
-    font-size: .8em;
-}
-
 /* Conteudo principal */
 main {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 5vw;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
 }
 
 .login-box {
+    margin-bottom: 20vh;
     display: flex;
-    position: relative;
     flex-direction: column;
     background-color: #ffffff;
     width: fit-content;
@@ -38,7 +18,7 @@ main {
     padding: 4em 8em;
     border-radius: .5em;
     overflow:hidden;
-    box-shadow: 3px 3px 8px rgba(0, 80, 253, 0.328);
+    box-shadow: 1px 2px 8px #00000054;
 }
 
 /*.login-box::before {
