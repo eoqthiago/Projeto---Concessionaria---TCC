@@ -396,6 +396,10 @@ section {
     .page-end {
         width: 40em;
     }
+
+    .row-items {
+        margin-right: 2em;
+    }
 }
 
 /* Tablet */
